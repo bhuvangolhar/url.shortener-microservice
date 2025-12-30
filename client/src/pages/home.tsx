@@ -359,7 +359,7 @@ export default function Home() {
             </Card>
           </div>
 
-          {/* Error Handling */}
+          {/* Errors Handling */}
           <Card className="mt-8 bg-red-50 border border-red-200">
             <CardContent className="p-6">
               <h4 className="text-lg font-semibold text-red-800 mb-3 flex items-center">
