@@ -11,17 +11,17 @@ Preferred communication style: Simple, everyday language.
 ## Frontend Architecture
 - **Framework**: React 18 with TypeScript
 - **Build Tool**: Vite for fast development and optimized builds
-- **UI Components**: shadcn/ui component library built on Radix UI primitives
+- **UI Components**: s hadcn/ui component library built on Radix UI primitives
 - **Styling**: Tailwind CSS with CSS variables for theming
-- **State Management**: TanStack Query (React Query) for server state management
-- **Routing**: Wouter for lightweight client-side routing
+- **State Management** : TanStack Query (Re act Query) for server state management
+- **Routing**: Wouter f or lightweight client-side routing
 - **Form Handling**: React Hook Form with Zod validation
 
 ## Backend Architecture
 - **Runtime**: Node.js with Express.js framework
 - **Language**: TypeScript with ES modules
 - **API Design**: RESTful API with JSON responses
-- **Request Handling**: Express middleware for JSON parsing, URL encoding, and request logging
+- **Request Handling**: Expres s middleware for JSON parsing, URL encoding, and request logging
 - **Error Handling**: Centralized error middleware with structured error responses
 
 ## Data Storage
