@@ -1,6 +1,6 @@
 export default {
   plugins: {
-    tailFwindcss: {},
+    tailwindcss: {},
     autoprefixer: {},
-  },
+ },
 }

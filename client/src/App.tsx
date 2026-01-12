@@ -10,7 +10,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      {/* Falling back to 404 */}
+      {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
   );
