@@ -29,7 +29,7 @@ export default function Home() {
   const { toast } = useToast();
   const queryClient = useQueryClient();
 
-  // Fetch recent URLs
+  // Fetch recent URI
   const { data: recentUrls, isLoading: urlsLoading } = useQuery<ShortenedUrl[]>({
     queryKey: ["/api/urls"],
     enabled: false, // Temporarily disable this to test if it's causing issues
